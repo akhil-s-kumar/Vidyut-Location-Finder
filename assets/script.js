@@ -24,7 +24,7 @@ const locationFinder = () => {
     }
   };
 
-  fetch("/assets/data.json", {
+  fetch("./assets/data.json", {
     cache: "no-store",
   })
     .then(function (response) {
