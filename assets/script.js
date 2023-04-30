@@ -5,11 +5,11 @@ const locationFinder = () => {
     for (var i = 0; i < data.length; i++) {
       if (data[i].name === a) {
         const card = `
-    <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white mx-auto">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg bg-[#15171A] mx-auto">
     <img class="w-full" src="${data[i].img}" alt="Sunset in the mountains">
     <div class="px-6 py-4">
-      <div class="font-bold text-xl mb-2">${data[i].name}</div>
-      <p class="text-gray-700 text-base">
+      <div class="font-bold text-xl text-[#FFFFFF] mb-2">${data[i].name}</div>
+      <p class="text-[#C9D1D9] text-base">
         ${data[i].desc}
       </p>
     </div>
